@@ -1,0 +1,121 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Contact page</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Contact US
+        </h1>
+        <ul>
+        <li> <a href="index.html">Home Page</a></li>
+         <li><a href="aboutpage.html">About Page</a></li>
+         <li><a href="menupage.html">menu page</a></li>
+     </ul>
+    </header>
+    <hr>
+    <main>
+        <p>
+            Get in Touch
+            We'd love to hear from you! Visit our shop or reach out with any questions or orders.
+        </p>
+        <figure>
+            <img src="img/pexels-karolina-grabowska-4476630.jpg" alt="woman Speaking"
+            title="A woman taking order in Mobile Phone" width="400" height="300"
+            loading="lazy">
+        </figure>
+        <h2>Our Contact Form</h2>
+    <form action="https://httpbin.org/post" method="get">
+    <fieldset>
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password</label>
+          </div>
+        <!-- <legend> Send Us A Message</legend>
+        <p>
+        <label for="firstname">First Name:</label>
+        <input type="text" id="firstname" placeholder="Rithik" 
+         required autofocus >
+    </p>
+        <p>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Your email" 
+         required> -->
+    <!-- </p>
+        <p>
+        <label for="DateOfBirth">DateofBirth:</label>
+        <input type="" id="DateofBirth" placeholder="DD-MM-YYYY" 
+        required>
+    </p>
+        <p>
+        <label for="Password">Password:</label>
+        <input type="password" id="Password" 
+        placeholder="Enter Your Password"    required>
+    </p> -->
+        <p>
+        <label for="Phoneno">Phone:</label>
+        <input type="text" id="Phoneno" placeholder="91+987654321" 
+         pattern="[0-9]{3}[0-9]{3}[0-9]{4}" autofocus="on" required>
+    </p>
+
+<!-- 
+   <fieldset>
+    <legend>What is your favourite drink</legend>
+    <p>
+        <input type="radio" name="drink" id="tropicaldelight" value="tropicaldelight">
+        <label for="tropicaldelight">Tropical Delight</label>
+    </p>
+    <p>
+        <input type="radio" name="drink" id="greengoodness" value="greengoodness">
+        <label for="greengoodness">Green Gooodness</label>
+    </p>
+    <p>
+        <input type="radio" name="drink" id="berryblast" value="berryblast">
+        <label for="berryblast">Berry Blast</label>
+    </p>
+    <p>
+        <input type="radio" name="drink" id="citrusglow" value="citrusglow">
+        <label for="citrusglow">Citrus Glow</label>
+    </p>
+    <p>
+        <input type="radio" name="drink" id="customjuice" value="customjuice">
+        <label for="customjuice">Custom Juice</label>
+    </p>
+
+  </fieldset> -->
+    <p>
+        <label for="Messsage">Your Message:</label>
+        <br>
+        <textarea name="message" id="message" cols="30" rows="15"
+        placeholder="Type Your message Here"></textarea>
+    </p>
+    <button type="submit">submit</button>
+    <button type="submit" formaction="https://httpbin.org/post" 
+    formmethod="post">post</button>
+    <button type="reset">Reset</button>
+</fieldset>
+</form>
+<section>
+    <h3>Our location</h3>
+        <address>
+            500,Kakkan Colony,<br>
+            Udayapatty,Salem - 636140,<br>
+            Phone: <a href="tel:+5555555555">555-5555-5555</a>
+
+        </address>
+   
+</section>
+</main>
+<hr>
+<footer>
+    copyright &copy; Rk Juice shop
+</footer>
+</body>
+</html>
